@@ -21,7 +21,7 @@ The answer is very interesting it based on 3 values called PID values. These val
 The PID particularly for L298D which tells that what is the speed and direction of wheels.
 
 **I provided code as .cpp
-  and .ino for Arduion IDE too.**
+  and .ino for Arduino IDE too.**
   
   
  
