@@ -10,7 +10,7 @@ Note: On our project, we used it to control 2 things :
 
 We already set the reading of MPU6050 gyroscope in the code, the reading is present in the code. These readings are captured by using another code that used to get the reading of gyroscope on your screen of all 3-axis (Code is provided). the values change as altitude changes so you can get your own values by this code provided.
 # Princple:-
-  It works on the principle of counter balance means it balances to by counter it weight.
+  It works on the principle of counter balance means it balances by counter its weight.
 # Working:-
   The 2 wheels setted on the robot always moves opposite direction to the direction in which the robot is leaning. Suppose if the body is leaning the right then the wheels moves to left and counter the weight to balance it.When the readings setted on MPU6050 changes then it gives a false signal to Arduino which means the body to leaning a particular position either right or left. To get the correct leaning posture the values of MPU6050 helps the Arduino to compare whether the body is leaning right or left. After getting the correct leaning direction. Arduino give order to L298D to move the wheels in which direction.
   
