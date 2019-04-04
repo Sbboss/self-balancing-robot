@@ -13,4 +13,11 @@ We already set the reading of MPU6050 gyroscope in the code, the reading is pres
   It works on the principle of counter balance means it balances by counter its weight.
 # Working:-
   The 2 wheels setted on the robot always moves opposite direction to the direction in which the robot is leaning. Suppose if the body is leaning the right then the wheels moves to left and counter the weight to balance it.When the readings setted on MPU6050 changes then it gives a false signal to Arduino which means the body to leaning a particular position either right or left. To get the correct leaning posture the values of MPU6050 helps the Arduino to compare whether the body is leaning right or left. After getting the correct leaning direction. Arduino give order to L298D to move the wheels in which direction.
+The question arises that How to set the speed of wheel to stop when they balance it perfectly?
+The answer is very interesting it based on 3 values called PID values. These values are setted according to your Model height, weight, length and many more factor. Also this is the toughest part to do as these values are not easily fit to your robot. We(My team) also took around 1 week to make the whole project and 4 days to find the correct the PID values.It stands for: **P-Proportional, I-Integral ,D-Derivative**.
+The PID particularly for L298D which tells that what is the speed and direction of wheels.
+**I provided code as .cpp
+  and .ino for Arduion IDE too.**
   
+  
+  Thankyou Keep Supporting me if this helped you than please leave a comment and also if you have any problem also leave a comment i definitely help you :)  
