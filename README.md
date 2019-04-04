@@ -7,6 +7,7 @@ The Bot consists of the following things:-
 Note: On our project, we used it to control 2 things : 
 2. The MPU6050+accelerometer:- It is a 3-axis gyroscope and accelerometer too. https://www.robomart.com/gy-521-mpu-6050-module-3-axis-analog-gyro-sensors-3-axis-accelerometer-module
 3. H-Bridge L298D: Used to control the wheel of the bot. It takes at least 9V to move the wheels and at max 12V. **We give the power supply to the L298D by an external source like an adapter of 9V**.https://www.robomart.com/l298-stepper-motor-driver-board-for-arduino-avr-smart-car-robot?search=l298d&dsearch=l298d
+
 We already set the reading of MPU6050 gyroscope in the code, the reading is present in the code. These readings are captured by using another code that used to get the reading of gyroscope on your screen of all 3-axis (Code is provided). the values change as altitude changes so you can get your own values by this code provided.
 # Princple:-
   It works on the principle of counter balance means it balances to by counter it weight.
